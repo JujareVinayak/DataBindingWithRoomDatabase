@@ -10,8 +10,9 @@ TextView textView = findViewById(R.id.sample_text);
 textView.setText(viewModel.getUserName());
 
 With DataBinding:
-<TextView
-    android:text="@{viewmodel.userName}" />
+
+In TextView tag of layout file add below line.
+    android:text="@{viewmodel.userName}""
     
 3. LiveData and ViewModel are used to provide MVVM artitechture. To understand LiveData and ViewModel refer below MVVM tutorial .
 Link: https://github.com/JujareVinayak/MVVM

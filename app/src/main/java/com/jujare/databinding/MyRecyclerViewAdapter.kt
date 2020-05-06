@@ -13,7 +13,7 @@ import com.jujare.databinding.db.User
 class MyRecyclerViewAdapter(private val clickListener:(User)->Unit)
     : RecyclerView.Adapter<MyViewHolder>()
 {
-    private val TAG = "com.anushka.roomdemo.MyRecyclerViewAdapter"
+    private val TAG = "MyRecyclerViewAdapter"
     private val usersList = ArrayList<User>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
